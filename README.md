@@ -4,7 +4,7 @@ A system for evaluating and running Large Language Models (LLMs) on graph reason
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Installation
 ```bash
@@ -20,13 +20,8 @@ Launch the interactive side-by-side model comparison interface:
 streamlit run streamlit_test_model.py
 ```
 
-### 3. Interactive CLI Model Tester
-Test any model interactively from the terminal:
-```bash
-python scripts/test_model_interactive.py
-```
 
-### 4. Command-Line Experiments
+### 3. Command-Line Experiments
 ```bash
 # Shortest path (Instant stub LLM)
 python -m src.run_experiment shortest_path --graph ego-facebook-medium --src 0 --dst 14 --backend stub
@@ -43,7 +38,7 @@ python -m src.run_experiment components --graph ca-grqc-small --backend stub
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 - **Tool-Augmented Reasoning**: ReAct agent using NetworkX for exact graph calculations.
 - **Multi-Model Support**: TinyLlama, Qwen2 (0.5B/1.5B/7B), Mistral, Phi-2, and Gemma.
@@ -53,7 +48,7 @@ python -m src.run_experiment components --graph ca-grqc-small --backend stub
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
@@ -84,7 +79,7 @@ python -m src.run_experiment components --graph ca-grqc-small --backend stub
 
 ---
 
-## 🎓 Training & Evaluation
+## Training & Evaluation
 
 ### Supervised Fine-Tuning (SFT)
 ```bash
