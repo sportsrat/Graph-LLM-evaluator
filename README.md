@@ -117,3 +117,12 @@ python -m src.eval_multi_model --tasks data/eval_tasks.jsonl --models small --to
 └─────────────────┘
 ```
 
+## ss: 
+Qwen model : fb dataset
+<img width="1911" height="968" alt="image" src="https://github.com/user-attachments/assets/cd2fe0c6-b064-4413-9ee6-5765fd66f22d" />
+
+qwen model: 2k nodes
+<img width="1913" height="897" alt="image" src="https://github.com/user-attachments/assets/d98cf692-2f9f-4006-a0b5-477f53794edb" />
+
+
+
