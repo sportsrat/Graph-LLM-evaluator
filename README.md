@@ -1,4 +1,4 @@
-# G1-Scale: Tool-Augmented LLM for Graph Reasoning
+# Tool-Augmented LLM for Graph Reasoning
 
 A system for evaluating and running Large Language Models (LLMs) on graph reasoning tasks using a Graph Traversal Tool (GTT). It enables LLMs to perform shortest path routing, graph diameter calculation, and connected component detection across network graphs.
 
